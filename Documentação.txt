@@ -1,0 +1,12 @@
+Nosso projeto visa ajudar os clientes levando acessibilidades para todos,
+trouxemos um programa que funciona como uma navegação em sites por comandos
+de voz, apôs a abertura do pop-up pelo cliente, podendo ser por voz ou click acima
+do ícone, o programa iniciará do seguinte modo, primeiro ele vai dar as boas vindas e em
+seguinda vai falar (ouvindo...), onde o usuario deve entrar com as palavras selecionadas, (exemplo 
+configuração) onde o site retornará a aba de configurações, caso não obteve a entrada de dados
+o sistema retorna a mensagem de que não houve a entrada e volta a perguntar e ouvir novamente 
+o cliente, se o cliente falar 'sair' ou 'fim', o programa retorna (saindo...) e em seguida encerra.
+
+Esses inputs funcionará com links, hiperlinks atrelado ao programa para navegacão, para entrada
+de audio no python foi usado o pyaudio em sua versão mais recente, o sistema tambem retorna prints
+para assistência do usuário e para que o programa entenda o momento de ouvir ou retornar.
